@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
             txt = "You pressed Cancel!";
           }
     });
+    
 
     document.getElementById('logoutButton').addEventListener('click', function () {
         // Add your logic for logging out here
@@ -19,6 +20,8 @@ document.addEventListener('DOMContentLoaded', function () {
           
     });
 
+
+    
     // You can dynamically add rows to the table with order data using JavaScript.
     // For example:
     var ordersData = [
@@ -27,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Add more order data objects here
     ];
-
+    
     var tbody = document.getElementById('orderTableBody');
     ordersData.forEach(function (order) {
         var row = document.createElement('tr');
@@ -38,7 +41,13 @@ document.addEventListener('DOMContentLoaded', function () {
             <td>${order.orderValue}</td>
             <td>${order.customerCity}</td>
             <td>${order.status}</td>
+            <td><button class="openInvoiceBtn" OnClick=" location.href='' ">Open</button></td>
         `;
         tbody.appendChild(row);
     });
+    // function invoice {
+    //     window.location='EmployeeLogin.html';
+    // }
 });
+
+
