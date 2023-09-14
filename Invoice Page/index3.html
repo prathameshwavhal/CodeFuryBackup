@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Generation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <img src="logo.png" alt="logo" class="logo-1">
+       
+      <div class="navbar" >
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#" style="background-color: rebeccapurple;">LogOut</a>
+        <br><br><br><br>
+    </div><br><br><br>
+
+
+
+    <div class="invoice-container">
+        <h1 id="header">INVOICE</h1><br>
+        <div class="invoice-details">
+            <p>Invoice ID: INV123</p>
+            <p>Invoice Date: 2023-09-14</p>
+            <p>Order Details:</p><br>
+             <table  class="order-table">
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <td colspan="5">103</td>  
+                </tr>
+                    <th>Order Date</th>
+                    <td colspan="5">2023-09-09</td>
+                </tr>
+                <tr>
+                    <th>Customer ID</th>
+                    <td colspan="5">908</td>
+                </tr>
+                <tr>
+                    <th>Customer Name</th>
+                    <td colspan="5"><a href="#cust_info">Anubhav Sharma</a></td>
+                <tr> 
+                    <th>Customer Shipping Address</th>
+                     <td colspan="5">Clementown, Dehradun, Uttarakhand - 248002</td>
+                </tr>
+                <tr>  
+                    <th>List of Products</th>
+                    <td colspan="1"> <a href="#product_info">Smartwatch</a></td>
+                    <td><a href="#product_info">Laptop</a></td>
+                    <td><a href="#product_info">Printer</a></td>
+                    <td><a href="#product_info">Keyboard</a></td>
+                    <td><a href="#product_info">Phone Cover</a></td>
+                </tr>
+                <tr>
+                    <th>Total Order Value</th>
+                    <td colspan="5">1,33,300.00</td>                    
+                </tr>
+                <tr>
+                    <th>Shipping Cost</th>
+                    <td colspan="5">0</td>
+                </tr>
+                    <th>Shipping Agency</th>
+                    <td colspan="5">Delhivery</td>
+                </tr>
+
+                    <th>Status</th>
+                    <td colspan="5">Pending</td>
+                </tr>
+            </thead>
+            <tbody>
+              </tbody>
+        </table>
+        <br><br>
+              <p id="cust_info">Customer Details:</p><br>
+             <table  class="customer-table">
+            <thead>
+                <tr>
+                    <th>Customer ID</th>
+                    <td>908</td>
+                </tr>
+                <tr>
+                    <th>Customer Name</th>
+                    <td>Anubhav Sharma</td>
+                </tr>
+                <tr>
+                    <th>GST Number</th>
+                    <td>25BDDA1111H1Z5</td>
+                </tr>    
+                <tr>
+                    <th>Customer Shipping Address</th>
+                    <td>Clementown, Dehradun, Uttarakhand - 248002</td>
+                </tr>    
+                <tr>
+                    <th>City</th>
+                    <td>Dehradun</td>
+                </tr>    
+                <tr>
+                    <th>Email</th>
+                    <td>anubhavsharma@gmail.com</td>
+                </tr>    
+                <tr>
+                    <th>Phone</th>
+                    <td>9378461748</td>
+                </tr>    
+                <tr>
+                    <th>Pin Code</th>
+                    <td>248002</td>
+                 </tr>
+            </thead>
+            <tbody>
+                <!-- Add products and their GST details dynamically using JavaScript -->
+            </tbody>
+        </table>
+        </div><br>
+
+         <p id="product_info">Product Details:</p><br>
+             
+        <table class="product-table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Level</th>
+                    <th>Price</th>
+                    <th>Count</th>
+                    <th>GST</th>
+                    <th>GST Type</th>
+                </tr>
+                <tr>
+                    <td>Smartwatch</td>
+                    <td>Level 1</td>
+                    <td>4,200</td>
+                    <td>1</td>
+                    <td>10%</td>
+                    <td>Interstate</td>
+                </tr>
+                <tr>
+                    <td>Laptop</td>
+                    <td>Level 1</td>
+                    <td>79,500</td>
+                    <td>1</td>
+                    <td>10%</td>
+                    <td>Interstate</td>
+                </tr>
+                 <tr>
+                    <td>Printer</td>
+                    <td>Level 1</td>
+                    <td>6,500</td>
+                    <td>3</td>
+                    <td>10%</td>
+                    <td>Interstate</td>
+                </tr>
+                 <tr>
+                    <td>Keyboard</td>
+                    <td>Level 1</td>
+                    <td>5,300</td>
+                    <td>2</td>
+                    <td>10%</td>
+                    <td>Interstate</td>
+                </tr>           
+                 <tr>
+                    <td>Phone Cover</td>
+                    <td>Level 3</td>
+                    <td>6,500</td>
+                    <td>3</td>
+                    <td>10%</td>
+                    <td>Interstate</td>
+                </tr>
+            </thead>
+        </table><br>
+        <div class="invoice-summary">
+            <p>Total GST: 13,330.00</p><br>        <!--total amt without GST: 1,33,300-->
+             
+            <p>Total Invoice Value: 1,46,630.00</p><br>
+            <p>Status: <span class="unpaid" style="background-color:red;">Unpaid</span></p><br>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="foot" id="contact">
+    <footer>
+        <p>&copy; 2023 OMS. All rights reserved.</p>
+        <p>PUNE, INDIA</p>
+        <p>009900990099</p>
+        <a href="mailto:hege@example.com">SAMPLE.NOW@GMAIL.COM</a>
+    </footer></div>
+
+   
+</body>
+</html>
