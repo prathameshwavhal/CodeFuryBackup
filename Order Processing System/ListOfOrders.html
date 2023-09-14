@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_LOI.css">
+    <title style="text-align: center;">List of Orders</title>
+</head>
+<body>
+    <header>
+        <button id="logoutButton">Logout</button>
+    </header>
+    <div class="container">
+        <h1>List of Orders</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Customer Name</th>
+                    <th>Order Date</th>
+                    <th>Order Value</th>
+                    <th>Customer City</th>
+                    <th>Status</th>
+                    <th>Invoice</th>
+                </tr>
+            </thead>
+            <tbody id="orderTableBody"></tbody>
+        </table>
+        <button class="quote-button" id="createQuoteButton">Create Quote</button>
+        <button class="import-button" id="importQuoteButton">Import Product</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://support.bigcommerce.com/servlet/rtaImage?eid=ka44O000000H80g&feoid=00N1300000BRtWQ&refid=0EM4O0000018klE") center center;
+    background-size:cover;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 10px;
+}
+
+header button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #ddd;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    color: #ddd;
+}
+
+th {
+    padding: 10px;
+    text-align: left;
+    background-color: #f2f2f2;
+}
+
+.quote-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+}
