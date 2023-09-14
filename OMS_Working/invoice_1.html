@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Generation System</title>
+    <link rel="stylesheet" href="style_invoice.css">
+</head>
+<body>
+     <img src="logo.png" alt="logo" class="logo-1">
+       
+      <div class="navbar" >
+        <a href="index.html">Home</a>
+        <a href="index.html">About</a>
+        <a href="index.html">Contact</a>
+        <a href="UserLogin.html" style="background-color: rebeccapurple;">LogOut</a>
+        <br><br><br><br>
+    </div><br><br><br>
+
+
+
+    <div class="invoice-container">
+        <h1 id="header">INVOICE</h1><br>
+        <div class="invoice-details">
+            <p>Invoice ID: INV123</p>
+            <p>Invoice Date: 2023-09-14</p>
+            <p>Order Details:</p><br>
+             <table  class="order-table">
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <td colspan="2">101</td>  
+                </tr>
+                    <th>Order Date</th>
+                    <td colspan="2">2023-09-08</td>
+                </tr>
+                <tr>
+                    <th>Customer ID</th>
+                    <td colspan="2">901</td>
+                </tr>
+                <tr>
+                    <th>Customer Name</th>
+                    <td colspan="2"><a href="#cust_info">Anchal Chand</a></td>
+                <tr> 
+                    <th>Customer Shipping Address</th>
+                     <td colspan="2">Airport Rd, Jayprakash Nagar, Yerawada, Pune, Maharashtra 411006</td>
+                </tr>
+                <tr>  
+                    <th>List of Products</th>
+                    <td colspan="1"> <a href="#product_info">Laptop</a></td>
+                    <td><a href="#product_info">Phone</a></td>
+                </tr>
+                <tr>
+                    <th>Total Order Value</th>
+                    <td colspan="2">1,05,000</td>                    
+                </tr>
+                <tr>
+                    <th>Shipping Cost</th>
+                    <td colspan="2">0</td>
+                </tr>
+                    <th>Shipping Agency</th>
+                    <td colspan="2">BlueDart</td>
+                </tr>
+
+                    <th>Status</th>
+                    <td colspan="2">Completed</td>
+                </tr>
+            </thead>
+            <tbody>
+              </tbody>
+        </table>
+        <br><br>
+              <p id="cust_info">Customer Details:</p><br>
+             <table  class="customer-table">
+            <thead>
+                <tr>
+                    <th>Customer ID</th>
+                    <td>901</td>
+                </tr>
+                <tr>
+                    <th>Customer Name</th>
+                    <td>Anchal Chand</td>
+                </tr>
+                <tr>
+                    <th>GST Number</th>
+                    <td>22AAAAA0000A1Z5</td>
+                </tr>    
+                <tr>
+                    <th>Customer Shipping Address</th>
+                    <td>Airport Rd, Jayprakash Nagar, Yerawada, Pune, Maharashtra- 411006</td>
+                </tr>    
+                <tr>
+                    <th>City</th>
+                    <td>Pune</td>
+                </tr>    
+                <tr>
+                    <th>Email</th>
+                    <td>anchalchand@gmail.com</td>
+                </tr>    
+                <tr>
+                    <th>Phone</th>
+                    <td>9743865829</td>
+                </tr>    
+                <tr>
+                    <th>Pin Code</th>
+                    <td>411006</td>
+                 </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        </div><br>
+
+         <p id="product_info">Product Details:</p><br>
+             
+        <table class="product-table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Level</th>
+                    <th>Price</th>
+                    <th>Count</th>
+                    <th>GST</th>
+                    <th>GST Type</th>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>Level 2</td>
+                    <td>30,000</td>
+                    <td>1</td>
+                    <td>10%</td>
+                    <td>Interstate</td>
+                </tr>
+                <tr>
+                    <td>Laptop</td>
+                    <td>Level 2</td>
+                    <td>75,000</td>
+                    <td>1</td>
+                    <td>10%</td>
+                    <td>Interstate</td>
+                </tr>
+            </thead>
+        </table><br>
+        <div class="invoice-summary">
+            <p>Total GST: 18,900.00</p><br>        
+                <!--18% of 30,000=5400 
+                18% of 75,000=13500
+                total=18,900-->
+
+            <p>Total Invoice Value: 1,23,900.00</p><br>
+            <p>Status: <span class="unpaid">Paid</span></p><br>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="foot" id="contact">
+    <footer>
+        <p>&copy; 2023 OMS. All rights reserved.</p>
+        <p>PUNE, INDIA</p>
+        <p>009900990099</p>
+        <a href="mailto:hege@example.com">SAMPLE.NOW@GMAIL.COM</a>
+    </footer></div>
+
+   
+</body>
+</html>
