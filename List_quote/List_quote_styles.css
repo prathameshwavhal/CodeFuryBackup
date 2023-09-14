@@ -1,0 +1,168 @@
+
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Poppins:wght@300&display=swap');
+</style>
+
+*{
+    border: 0;
+    box-sizing: content-box; 
+    font-family: "Poppins", sans-serif;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: bold;
+    line-height: inherit;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+body{
+     background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://support.bigcommerce.com/servlet/rtaImage?eid=ka44O000000H80g&feoid=00N1300000BRtWQ&refid=0EM4O0000018klE") center center;
+    background-repeat: no-repeat; 
+    background-size: 1600px 1700px;;  
+}
+html 
+{ 
+    overflow: auto; 
+    padding: 0.5in; 
+}
+
+#header{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.invoice-container {
+    max-width: 55%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    color: white;
+}
+
+.invoice-details {
+    margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #ada397;
+}
+
+tr:hover {
+    background-color: #85C1E9;
+}
+
+
+th {
+
+/*  background-color: #663399;*/
+  background-color: #1560BD;
+  color: white;
+}
+
+.order-table th,
+.order-table td,
+.customer-table th,
+.customer-table td,
+.product-table th,
+.product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 5px solid #ddd;
+
+}
+
+.invoice-summary {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 20px;
+    font-weight:bold ;
+}
+
+button{
+     background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 42px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.unpaid {
+    color: white;
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 50px;
+  }
+
+.sub_buttons{
+    text-align: right;
+    margin: 10px;
+}
+
+
+
+
+
+/* Navigation bar links */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+/* On hover, the links will change color */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar{
+    float: right;
+}
+
+.logo-1{
+    width: 5%;
+    height: 5%;
+    float: left;
+}
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.foot{
+    background-color: white;
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: #ada397;
+}
