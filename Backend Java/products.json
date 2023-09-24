@@ -1,0 +1,20 @@
+[
+    {
+        "ProductID": 26,
+        "Name": "Watch Fit Band",
+        "Price": 19.99,
+        "Category": "Level_1"
+    },
+    {
+        "ProductID": 27,
+        "Name": "Apple Charger",
+        "Price": 29.99,
+        "Category": "Level_1"
+    },
+    {
+        "ProductID": 28,
+        "Name": "Iphone 15",
+        "Price": 9.99,
+        "Category": "Level_2"
+    }
+]
